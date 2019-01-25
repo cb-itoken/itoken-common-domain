@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.Date;
 
-@Table(name = "itoken-service-posts..tb_posts_post")
+@Table(name = "tb_posts_post")
 public class TbPostsPost extends BaseDomain {
     /**
      * 文章编码
