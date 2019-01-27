@@ -1,11 +1,13 @@
 package com.cb.itoken.common.domain;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
 @Table(name = "tb_posts_post")
-public class TbPostsPost extends BaseDomain {
+public class TbPostsPost extends BaseDomain implements Serializable {
+    private static final long serialVersionUID = -2368055515401203564L;
     /**
      * 文章编码
      */
